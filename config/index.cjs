@@ -15,6 +15,18 @@ const USER_CONFIG = {
 
   PROVINCE: '广东',
   CITY: '广州',
+  
+    // 功能开关,打开：true，关闭：false
+  SWITCH: {
+    /** 每日天气 */
+    weather: true,
+
+    /** 节假日 */
+    // 下一休息日综合提醒
+    holidaytts: true,
+    
+    // 土味情话(彩虹屁)
+    earthyLoveWords: true,
 
   USERS: [
     {
