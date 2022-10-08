@@ -33,7 +33,6 @@ const USER_CONFIG = {
       useTemplateId: 'TnCzU9yqs5_Zh2HXS68uz_UUwaVPWD2_aknPCKxM2iw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-10',
-     
       PROVINCE: '广东',
       CITY: '广州',
       
@@ -50,7 +49,8 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-02-26' }
-      ],
+     }
+   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
