@@ -24,9 +24,6 @@ const USER_CONFIG = {
     /** 节假日 */
     // 下一休息日综合提醒
     holidaytts: true,
-    
-    // 土味情话(彩虹屁)
-    earthyLoveWords: true,
 
   USERS: [
     {
