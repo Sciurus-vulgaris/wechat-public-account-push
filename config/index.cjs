@@ -12,9 +12,6 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '8e5911e4854245dbb7fd452a4a95a317',
-
-  PROVINCE: '广东',
-  CITY: '广州',
   
     // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -36,6 +33,10 @@ const USER_CONFIG = {
       useTemplateId: 'TnCzU9yqs5_Zh2HXS68uz_UUwaVPWD2_aknPCKxM2iw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-10',
+     
+      PROVINCE: '广东',
+      CITY: '广州',
+      
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -48,10 +49,8 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2021-02-26' },
+        { keyword: 'love_day', date: '2021-02-26' }
       ],
-    },
-  ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
