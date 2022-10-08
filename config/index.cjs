@@ -24,7 +24,8 @@ const USER_CONFIG = {
     /** 节假日 */
     // 下一休息日综合提醒
     holidaytts: true,
-
+  },
+  
   USERS: [
     {
       // 想要发送的人的名字
