@@ -46,8 +46,8 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
-      PROVINCE: '广东',
-      CITY: '广州',
+      province: '广东',
+      city: '广州',
       
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
