@@ -37,20 +37,20 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '啤先生',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ow_SK5lpRQj_inrEwYqSyC94QR5o',
+      id: 'ow_SK5g4riurIZDmJJM0qIWFHU-k',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TnCzU9yqs5_Zh2HXS68uz_UUwaVPWD2_aknPCKxM2iw',
+      useTemplateId: 'r_vQFKtEOcOujJq5g9KQAYMF5v7pxosGRypa89BqgpA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-10',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://wangxinleo.cn',
+      openUrl: 'https://www.deepl.com/translator-mobile',
       province: '广东',
       city: '广州',
       
       festivals: [
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号，倒数日计算，距离x天
         {
           type: '生日', name: '啤啤', year: '2000', date: '10-10',
         },
@@ -58,12 +58,12 @@ const USER_CONFIG = {
           type: '节日', name: '相识纪念日', year: '2021', date: '01-30',
         },
       ],
-      // 我们在一起已经有xxxx天了的配置
+      // 我们在一起已经有xxxx天了的配置，天数计算，第x天
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-02-26' },
-        // 要见面的周数
-        { keyword: 'hug_week', date: '2023-12-01' }
+        // 出国
+        { keyword: 'depart_day', date: '2022-07-30' },
       ]
      },
     ],
