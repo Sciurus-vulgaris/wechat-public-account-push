@@ -49,8 +49,9 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-02-26' }
-   ],
-
+      ]
+     }
+    ]
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'GfRNCJwO-6x0sUctjwzSD1Vs3_RShrxU7cw-CJRMqxw',
