@@ -62,7 +62,6 @@ const USER_CONFIG = {
       id: 'ow_SK5g4riurIZDmJJM0qIWFHU-k',
     }
   ],
-
 }
 
 module.exports = USER_CONFIG
