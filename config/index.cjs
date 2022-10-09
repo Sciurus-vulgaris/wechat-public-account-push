@@ -13,6 +13,9 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '8e5911e4854245dbb7fd452a4a95a317',
   
+  //color in text 
+  IS_SHOW_COLOR: true,
+  
     // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
@@ -21,6 +24,12 @@ const USER_CONFIG = {
     /** 节假日 */
     // 下一休息日综合提醒
     holidaytts: true,
+    
+    // 土味情话(彩虹屁)
+    earthyLoveWords: true,
+    
+    /** 星座运势 */
+    horoscope: true,
   },
   
   USERS: [
@@ -33,6 +42,10 @@ const USER_CONFIG = {
       useTemplateId: 'TnCzU9yqs5_Zh2HXS68uz_UUwaVPWD2_aknPCKxM2iw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-10',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://wangxinleo.cn',
       PROVINCE: '广东',
       CITY: '广州',
       
@@ -48,7 +61,9 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2021-02-26' }
+        { keyword: 'love_day', date: '2021-02-26' },
+        // 要见面的周数
+        { keyword: 'hug_week', date: '2023-12-01' }
       ]
      },
     ],
